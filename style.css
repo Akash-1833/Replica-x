@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Montserrat;
+    
+    
+   
+
+}
+.page{
+    display:grid;
+    grid-template-columns: 3fr 7fr;
+   
+}
+
+
+
+
+.sidebar{
+    background-color:rgb(245, 245, 245);
+    height:100vh;
+
+}
+.inicon{
+    margin-left:30px;
+    margin-top:40px;
+}
+.head{
+    display:inline;
+    margin-top:30px;
+}
+.pfp{
+   display:flex;
+   justify-content:center;
+   margin-top:25px;
+    
+    
+}
+.side-pfp{
+    height:120px;
+}
+.name{
+   display:flex;
+   justify-content:center;
+   font-size: x-large;
+   font-family:Montserrat;
+   font-weight:500;
+   margin-top:15px;
+  
+   margin-bottom:-4px;
+}
+.id{
+    display:flex;
+    justify-content:center;
+    color:rgb(131, 129, 129);
+    margin-bottom:30px;
+}
+.stats{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:large;
+    margin-top:20px;
+    font-family:Montserrat;
+
+
+}
+.stats-comp{
+    display:flex;
+    justify-content: space-evenly;
+    font-size:large;
+    margin-left:21px;
+    font-family:Montserrat;
+    font-size:14px;
+    color:rgb(131, 129, 129);
+}
+.sidemenu{
+    margin-left:40px;
+    display:flex;
+    justify-content:space-between;
+    column-gap:40px;
+    font-weight:500;
+    font-size:12px;
+}
+.sidemenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidemenu ul li {
+    margin-bottom: 40px;
+}
+
+
+.sidemenu ul li a {
+    text-decoration: none;
+   
+    
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    transition: background-color 0.3s;
+}
+
+.sidemenu ul li a.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+#kya{
+    margin-top:10px;
+}
+
+.current,
+.icon{
+    margin-bottom:-8px;
+    padding-right:50px;
+    margin-top:40x;
+
+
+}
+
+
+.sidemenu ul li a.current,
+.sidemenu ul li a:hover {
+
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidha{
+    width:85%;
+
+    
+}
+.sidha1{
+    width:85%;
+}
